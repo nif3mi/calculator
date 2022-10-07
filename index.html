@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.1.js"></script>
+  <script src="js/script.js"></script>
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <form id="calculator">
+      <div class="form-group">
+        <label for="number1">Number1</label>
+        <input type="number" id="number1" class="form-control">
+
+      </div>
+      <div class="form-group">
+        <label for="number2">Number2</label>
+        <input type="number" id="number2" class="form-control">
+      </div>
+      <div>
+        <label for="">add</label>
+        <input type="radio" name="calc" value="add">
+      </div>
+      <div>
+        <label for="">subtract</label>
+        <input type="radio" name="calc" value="subtract">
+      </div>
+      <div>
+        <label for="">multiply</label>
+        <input type="radio" name="calc" value="multiply">
+      </div>
+      <div>
+        <label for="">divide</label>
+        <input type="radio" name="calc" value="divide">
+      </div>
+      <div>
+        <label for="">modulo</label>
+        <input type="radio" name="calc" value="modulo">
+      </div>
+
+      <button type="submit" class="btn btn-warning">Calculate</button>
+    </form>
+    <h3>the result is <span id="display"></span></h3>
+
+
+
+</body>
+
+</html>
